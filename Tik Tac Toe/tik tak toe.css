@@ -1,0 +1,89 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@200;300;400&family=Inter:wght@100;200;300;400;500&family=Nunito:ital,wght@0,200;0,400;0,500;0,600;1,700&family=Poppins:wght@100;200;300;400;500&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;1,300&family=Roboto:wght@300;400;500;700&family=Sofia+Sans:wght@100;200;300;400;500&family=Source+Sans+Pro:wght@700;900&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Sofia Sans', sans-serif;
+}
+body
+{
+    height: 100vh;
+    background: linear-gradient(135deg, #310a8b, #460f5b);
+}
+html
+{
+    font-size: 16px;
+}
+.wrapper
+{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+.container
+{
+    width: 70vmin;
+    height: 70vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vmin;
+}
+.button-option
+{
+    width: 22vmin;
+    height: 22vmin;
+    background: #fff;
+    border: none;
+    border-radius: 40%;
+    font-size: 11vmin;
+    color: linear-gradient(135deg, #310a8b, #460f5b);
+}
+#restart
+{
+    padding: 1em;
+    font-size: 1.3em;
+    border: none;
+    border-radius: 10%;
+    color: #fff;
+    background-color: black;
+    position: relative;
+    margin: 1.5em auto 0 auto;
+    display: block;
+}
+.popup
+{
+    background: linear-gradient(135deg, #310a8b, #460f5b);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    z-index: 2;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+    font-size: 11vmin;
+}
+#new-game
+{
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 0.2em;
+    font-size: 0.6em;
+    color: #fff;
+    background-color: black;
+}
+#message
+{
+    text-align: center;
+    font-size: 1em;
+    color: #fff;
+}
+.popup_hide
+{
+    display: none;
+}
